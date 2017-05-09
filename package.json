@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "Sample for splunk webdriver testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server sample-site -p 8303",
+    "test": "npm test",
+    "ghPages": "gh-pages -d sample-site",
+    "webdriver": "selenium-standalone"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Amit Bidwai",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "gh-pages": "*",
+    "http-server": "*"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^5.11.2",
+    "webdriverio": "^4.8.0"
+  }
+}
