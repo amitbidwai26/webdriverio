@@ -29,16 +29,11 @@ https://java.com/en/download/
 
 ## Usage
 
-Install the Dependencies:
-
-```sh
-npm install
-```
-
 Install Webdriver.io Depndency one time 
 
+```sh
 npm run webdriver install
-
+```
 
 Run/Start the webdriver server:
 
