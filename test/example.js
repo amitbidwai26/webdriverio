@@ -25,4 +25,7 @@ client
     .timeoutsImplicitWait(5000)
     .url('https://www.splunk.com/en_us/search.html?query=splunk')
     .timeoutsImplicitWait(500000)
-    .end();
+    .setValue('#searchBox', 'splunk document')
+    .waitUntil(function () {
+        console.log('Search Document block')
+         }, 500000)
