@@ -38,7 +38,7 @@ npm run webdriver install
 Run/Start the webdriver server:
 
 ```sh
-npm run weebdriver start
+npm run webdriver start
 ```
 
 Add secret.js file to location webdriverio/test/secret.js
