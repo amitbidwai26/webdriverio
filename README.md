@@ -38,7 +38,21 @@ npm run webdriver install
 Run/Start the webdriver server:
 
 ```sh
-npm run webdriver start
+npm run weebdriver start
+```
+
+Add secret.js file to location webdriverio/test/secret.js
+```sh
+module.exports = {
+	'username' : '*****',
+	'password'  : '*****'
+};
+
+Replace * with actual username and password.
+```
+
+```sh
+node test/example.js
 ```
 
 Open newcommand Window move to project folder
